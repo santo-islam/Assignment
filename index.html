@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+          <!--Navbar-->
+          <div class="container-fluid">
+            <nav class="navbar fixed-top shadow navbar-expand-lg bg-danger" data-bs-theme="light">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand">Assignment</a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Navmenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="Navmenu">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Profile</a>
+                            </li>
+
+                            <!--Dropdown-->
+        
+                           <div class="dropdown">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Portfolio</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item">Portfolio 1</li>
+                                    <li class="dropdown-item">Portfolio 2</li>
+                                    <li class="dropdown-item">Portfolio 3</li>
+                                </ul>
+                            </li>
+                           </div>
+        
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+        
+                        </ul>
+                        <div>
+                            <form class="d-flex">
+                                <input type="text" class="form-control">
+                                <button class="btn mx-2 btn-primary">Search</button>
+        
+                            </form>
+                        </div>
+        
+                    </div>
+                    
+        
+        
+                </div>
+        
+            </nav>
+
+          </div>
+
+    
+
+         <!--Card-->
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-5 mt-4">
+                    <div class="card w-100">
+                        <img class="card-img-top" src="https://c.tadst.com/gfx/750w/istock-1359558835.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title"><b>Language Day</b></h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus veritatis dolor temporibus, incidunt vitae reprehenderit.
+
+                            </p>
+                            <button class="btn btn-danger">Learn More</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-5 mt-4">
+                    <div class="card w-100">
+                        <img class="card-img-top" src="https://nationaltoday.com/wp-content/uploads/2021/11/INDEPENDENCE-DAY-BANGLADESH-1200x834.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title"><b>Independence Day</b></h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus veritatis dolor temporibus, incidunt vitae reprehenderit.
+
+                            </p>
+                            <button class="btn btn-danger">Learn More</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-5 mt-4">
+                    <div class="card w-100">
+                        <img class="card-img-top" src="https://nationaltoday.com/wp-content/uploads/2021/10/Bangladesh-Victory-Day-1200x834.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title"><b>Victory Day</b></h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus veritatis dolor temporibus, incidunt vitae reprehenderit.
+
+                            </p>
+                            <button class="btn btn-danger">Learn More</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <!--Button-->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="button">
+                        <button class="btn btn-primary">Button</button>
+                        <button class="btn btn-warning">Log in</button>
+                        <button class="btn btn-danger">Sign Up</button>
+                        <button class="btn btn-info">Send</button>
+                        <button class="btn btn-dark">Reset</button>
+                        <button class="btn btn-secondary">Back</button>
+                        <button class="btn btn-success">Cancel</button>
+                        <button class="btn btn-outline-primary">Resend</button>
+                        <button class="btn btn-outline-danger">Go</button>
+                        <button class="btn btn-outline-success">Submit</button>
+
+                    </div>
+                    
+
+                </div>
+
+            </div>
+
+        </div><br><br>
+
+
+        <!--Form-->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 p-5">
+                    <div class="frm">
+                        <form>
+                            <fieldset>
+                                <h1 style="text-align: center;"><b>Sign Up Form</b></h1>
+                                <hr><br>
+                                <label class="form-label" for="user">Name:</label>
+                                <input class="form-control" type="text" id="user" name="user" placeholder="User name"><br>
+                            
+                                <label class="form-label" for="email">Email:</label>
+                                <input class="form-control" type="email" id="email" name="usermail" placeholder="User email" required><br>
+                            
+                                <label class="form-label" for="pass">Password:</label>
+                                <input class="form-control" type="password" id="pass" name="pass" placeholder="User password"><br>
+                            
+                            
+                                <label class="form-label" for="date">Date Of Birth:</label>
+                                <input class="form-control" type="date" id="date" name="dob"><br>
+                            
+                            
+                                <label class="form-label" for="file">Choose Photo:</label>
+                                <input class="form-control" type="file" id="file" name="file"><br>
+                            
+                            
+                                <textarea class="form-control" name="comment" cols="30" rows="10" placeholder="Write your Comment">
+                                    
+                                </textarea><br>
+                            
+                                <input class="btn btn-primary" type="submit" value="Send">
+                                <input class="btn btn-danger" type="reset" value="Reset"><br>
+                                <br><br>
+                            
+                            </fieldset>
+                        </form>
+                    </div>                 
+
+                </div>
+
+                <!--List group-->
+
+                <div class="col-md-6 col-sm-12 p-5">
+                    <h1 style="text-align: center;"><b>Division List</b></h1>
+                    <hr><br>
+                    <ul class="list-group">
+                        <li class="list-group-item">Dhaka</li>
+                        <li class="list-group-item">Chattogram</li>
+                        <li class="list-group-item">Khulna</li>
+                        <li class="list-group-item">Rajshahi</li>
+                        <li class="list-group-item">Sylhet</li>
+                        <li class="list-group-item">Barishal</li>
+                        <li class="list-group-item">Rangpur</li>
+                        <li class="list-group-item">Mymensingh</li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+              <!--Table-->
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md col-sm-12 p-5">
+                    <h1 style="text-align: center;"><b>Table</b></h1>
+                    <hr><br>
+                    <table class="table table-striped table-bordered table-hover table-primary table-responsive">
+                        <tr>
+                            <td>Name</td>
+                            <td>Date</td>
+                            <td>Year</td>
+                        </tr>
+                        <tr>
+                            <td>Language Day</td>
+                            <td>21 February</td>
+                            <td>1952</td>
+                        </tr>
+                        <tr>
+                            <td>Independence Day</td>
+                            <td>26 March</td>
+                            <td>1971</td>
+                        </tr>
+                        <tr>
+                            <td>Victory Day</td>
+                            <td>16 Decembar</td>
+                            <td>1971</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+        <!--progress bar-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 p-5">
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">80%</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--pagination-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 p-5">
+
+                </div>
+
+                <div class="col-md-6 col-sm-12 p-5">
+                    <nav>
+                        <ul class="pagination" style="justify-content: end;">
+                            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./JS/bootstrap.bundle.js"></script>
+</body>
+</html>
